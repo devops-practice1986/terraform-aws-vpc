@@ -18,9 +18,7 @@ output "database_subnet_group_name"{
   value = aws_db_subnet_group.default.name
 }
 
-# output "public_subnet_ids" {
-#   value = aws_subnet.public[*].id
-# }
+
 # output "az_info"{
 #     value =data.aws_availability_zones.available
 # }
